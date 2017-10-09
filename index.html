@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fancy Forms 2</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Spicy+Rice' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+
+</head>
+
+<body>
+    <form class="main-wrapper">
+        <div class="legend">
+            <span class="number">1</span> Candidate Info
+        </div>
+        <span class="input-wrapper">
+            <div class="form-wrapper">
+            <div class="error name-error"></div>
+            <input class= "name" type="text" name="fullName" placeholder="Your Name *">
+            </div>
+            <div class="form-wrapper">
+            <div class="error email-error"></div>
+            <input class="email" type="email" name="email" placeholder="Your Email *">
+            </div>
+        </span>
+        <div class="form-wrapper">
+            <div class="error about-error"></div>
+            <textarea class="about" name="about" placeholder="About yourself"></textarea>
+        </div>
+        <label>Interests:</label>
+        <div class="form-wrapper">
+            <div class="error interest-error">
+                <select name="">
+                    <optgroup label="Indoors">
+                        <option value="fishkeeping">Fishkeeping</option>
+                        <option value="reading">Reading</option>
+                        <option value="boxing">Boxing</option>
+                        <option value="debate">Debate</option>
+                        <option value="gaming">Gaming</option>
+                        <option value="snooker">Snooker</option>
+                        <option value="other_indoor">Other</option>
+                    </optgroup>
+                    <optgroup label="Outdoors">
+                        <option value="football">Football</option>
+                        <option value="swimming">Swimming</option>
+                        <option value="fishing">Fishing</option>
+                        <option value="climbing">Climbing</option>
+                        <option value="cycling">Cycling</option>
+                        <option value="other_outdoor">Other</option>	
+                    </optgroup>
+                </select>
+            </div>
+        </div>
+        <div class="legend">
+            <span class="number">2</span> Additional Info
+        </div>
+        <div class="form-wrapper">
+            <div class="error school-error"></div>
+            <textarea class="school" name="about" placeholder="About Your School"></textarea>
+        </div>
+        <input class="apply" type="submit" value="Apply">
+    </form>
+</body>
+
+</html>

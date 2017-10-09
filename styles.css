@@ -1,0 +1,85 @@
+body {
+    font-family: 'Spicy Rice';
+}
+
+.main-wrapper {
+    background-color: rgb(242, 242, 242);
+    margin: 0 50px;
+    padding: 15px 30px 30px;
+    border-radius: 15px;
+}
+
+
+/* CANDIDATE INFO AND ADDITIONAL INFO */
+
+div.legend {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-left: 56px;
+}
+
+
+/* INTERESTS */
+
+label {
+    display: block;
+    font-size: 15px;
+    width: 90%;
+    margin-bottom: 8px;
+}
+
+
+/* NUMBERS */
+
+span.number {
+    background-color: #2AE9A0;
+    position: absolute;
+    border-radius: 50% 50% 50% 0;
+    margin-left: -43px;
+    width: 37px;
+    height: 37px;
+    text-align: center;
+}
+
+
+/* FIELDS */
+
+input,
+textarea,
+select,
+optgroup,
+optgroup>option {
+    display: block;
+    width: 93%;
+    background-color: #E6E6E6;
+    margin: 0 auto 40px;
+    font-size: 15px;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* APPLY BUTTON */
+
+input.apply {
+    border-radius: none!important;
+    padding: 25px;
+    width: 100%;
+    background-color: #2AE9A0;
+    color: #F4F4F4;
+    font-size: 20px;
+    margin-top: 43px;
+    margin-bottom: 20px;
+}
+
+input.apply:hover {
+    background-color: #26CD8D
+}
+
+
+/* ERROR MESSAGES */
+
+.error {
+    color: red;
+}
